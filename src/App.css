@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  max-width: 425px;
+  background-color: rgba(105, 102, 102, 0.7);
+}
+
+.ToHome {
+  background: url("./data/images/raw/Girls-Listen-Music_0.jpg");
+  height: 300px;
+  background-size: cover;
+}
+.Text {
+  border-bottom: 10px solid rgb(105, 226, 214);
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.Text h1 {
+  color: white;
+  font-size: 30px;
+}
+.List {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.SearchArtist {
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.SearchArtist img {
+  width: 100%;
+}
+.SearchArtist p {
+  background-color: #76afe1;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  margin-bottom: 3px;
+}
+.ArtistDetails {
+  margin-top: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ArtistDetails img {
+  width: 200px;
+}
+.all-albums {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-albums img {
+  width: 140px;
+  margin: 2px;
+}
+.Albums {
+  width: 50%;
+}
